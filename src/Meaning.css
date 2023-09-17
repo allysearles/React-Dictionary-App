@@ -1,0 +1,17 @@
+.partofspeech {
+	color: lightskyblue;
+	text-transform: capitalize;
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.definition {
+	color: grey;
+
+	line-height: 30px;
+}
+.example {
+	color: grey;
+
+	line-height: 30px;
+}

@@ -31,33 +31,39 @@ export default function Dictionary(props) {
 	if (loaded) {
 		return (
 			<div className="Dictionary">
-				<form id="search-form" onSubmit={handleSubmit}>
-					<div className="row">
-						<div className="col-10">
-							<input
-								type="search"
-								placeholder="Search . . ."
-								className="form-control"
-								onChange={handleKeywordChange}
-								defaultValue={props.defaultkeyword}
-								autoFocus={true}
-							/>
+				<section>
+					<form id="search-form" onSubmit={handleSubmit}>
+						<div className="row">
+							<div className="col-10">
+								<input
+									type="search"
+									placeholder="Search . . ."
+									className="form-control custom-input"
+									onChange={handleKeywordChange}
+									defaultValue={props.defaultkeyword}
+									autoFocus={true}
+								/>
+							</div>
+							<div className="col-2">
+								<input
+									type="submit"
+									value="Search"
+									className="btn btn-primary w-100"
+									id="search-button"
+								/>
+							</div>
 						</div>
-						<div className="col-2">
-							<input
-								type="submit"
-								value="Search"
-								className="btn btn-primary w-100"
-								id="search-button"
-							/>
-						</div>
+					</form>
+					<div id="search-example">
+						(Ex. Search: Apples, Ice Cream, Sunset, etc.)
 					</div>
-				</form>
+				</section>
+
 				<Results results={results} />
 			</div>
 		);
 	} else {
 		load();
-		return "Searching...";
+		return "Loading";
 	}
 }

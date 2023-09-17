@@ -1,0 +1,28 @@
+.list-container {
+	max-width: 600px;
+}
+.synonyms {
+	list-style: none;
+
+	color: greenyellow;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 600;
+	padding-top: 20px;
+	letter-spacing: 1px;
+}
+ul {
+	flex-wrap: wrap;
+	margin: 0;
+	list-style: none;
+	padding: 0px;
+	white-space: wrap;
+}
+li {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+li:last-child {
+	margin-right: 0;
+}

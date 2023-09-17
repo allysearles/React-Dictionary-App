@@ -1,0 +1,21 @@
+.Results {
+	padding: 20px 50px;
+}
+section {
+	padding: 5px 0px;
+}
+#word-searched {
+	color: white;
+	text-transform: capitalize;
+	font-size: 26px;
+	font-weight: 600;
+	margin: 0;
+	letter-spacing: 1px;
+}
+#phonetics {
+	margin: 0;
+	color: grey;
+	font-style: italic;
+	letter-spacing: 1px;
+	padding-top: 5px;
+}

@@ -2,3 +2,28 @@
 	background-color: orange;
 	border-color: orange;
 }
+#search-example {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin: auto 0;
+	padding: 30px 10px;
+}
+#search-form {
+	margin: auto 0;
+	text-align: center;
+	justify-content: center;
+}
+.custom-input {
+	color: white;
+	background-color: black;
+}
+.custom-input:focus {
+	color: white;
+	background-color: black;
+	border-color: white;
+	box-shadow: none;
+}
+.custom-input::placeholder {
+	color: white;
+}
