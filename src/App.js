@@ -11,7 +11,17 @@ function App() {
 					<Dictionary />
 				</main>
 				<footer>
-					This project was coded by Ally Searles and is open source on Github.
+					<p>
+						This project was coded by @allysearles and is {""}
+						<a
+							href="https://github.com/allysearles/React-Dictionary-App.git"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							open sourced
+						</a>
+						{""} on Github.
+					</p>
 				</footer>
 			</div>
 		</div>
